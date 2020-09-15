@@ -29,7 +29,33 @@ Linear Algebra
  | 4  1 | | y |   | 18 |
   
 Matrix Multiplication
-  - Multiplying the rows of Matrix 1 with the columns of Matrix 2
-  - The rows of Matrix 1 need to be equal to column of Matrix 2 for it to work
+ - Multiplying the rows of Matrix 1 with the columns of Matrix 2
+ - The rows of Matrix 1 need to be equal to column of Matrix 2 for it to work
 
 Transpose
+ - Interchanging rows and columns of a Matrix
+ 
+Determinant
+ - Scalar value of the Matrix
+ - Product of Eigen values of Matrix
+ 
+      | a b c |
+ A =  | d e f |
+      | g h i |
+      
+Det(A) = aei+bfg+cdh - afh - bdi - ceg
+
+Inverse of Matrix
+ - A matrix gives the Identity Matrix when multiplied by Inverse
+ - Inverse helps us apply transformations easily
+ - Some matrices don't have inverse --> This means the information is not reliable and very noisy
+ 
+Linear Algebra - Vector as a Matrix
+ - Vectors can be easily translated to Matrix
+ - They make it easily to apply operations on the data
+ - Certain well-known operations are: 
+ 
+ 23.24
+ 
+ 
+
