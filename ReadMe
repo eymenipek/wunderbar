@@ -3,10 +3,24 @@
 
 
 Syllabus
+Mathematics for Machine Learning
+  - https://www.youtube.com/watch?v=1VSZtNYMntM
+  - Jason Brownlee - Basics for Linear Algebra for Machine Learning - Discover the Mathematical Language of Data in Python (2018)
+  - Jason Brownlee - Introduction to Time Series Forecasting with Python - How to Prepare Data and Develop Models to Predict the Future-v1.9 (2020)
+
+Data Visualization
+  - https://www.welcometothejungle.com/en/articles/btc-data-visualization-machine-learning
+  - https://towardsdatascience.com/data-visualization-for-machine-learning-and-data-science-a45178970be7
+  - https://media.neurips.cc/Conferences/NIPS2018/Slides/Visualization_for_ML.pdf
+  - https://www.kdnuggets.com/2019/04/best-data-visualization-techniques.html
+  - https://boostlabs.com/machine-learning-benefits-data-visualization/
+  - https://machinelearningmastery.com/data-visualization-methods-in-python/
+
+Machine Learning Fundamentals
+Aurélien Géron - Hands-On Machine Learning with Scikit-Learn and TensorFlow Concepts, Tools, and Techniques to Build Intelligent Systems (2017, O’Reilly Media)
 
 
 Python
-
 Online Editor: https://repl.it/languages/python3
 
 Data Visualization
@@ -18,4 +32,5 @@ Data Visualization
   https://machinelearningmastery.com/data-visualization-methods-in-python/
 
 Mathematics for Machine Learning
-
+https://www.youtube.com/watch?v=1VSZtNYMntM
+Marc Peter Deisenroth_ A Aldo Faisal_ Cheng Soon Ong - Mathematics for Machine Learning-Cambridge University Press (2020)
