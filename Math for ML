@@ -9,8 +9,8 @@ Machine Learning
   - 15% Algorithms
   - 10% Others
   
-  
-Linear Algebra
+###########################################################################################################################  
+------------- Linear Algebra -------------
   - Performs operations in the data
   Scalar: Skaler buyuklukler
   Vectors: Vektorler - List of numbers for CS that represents something (Sutun ya da satir -> 1xN ya da Nx1)
@@ -53,9 +53,98 @@ Inverse of Matrix
 Linear Algebra - Vector as a Matrix
  - Vectors can be easily translated to Matrix
  - They make it easily to apply operations on the data
- - Certain well-known operations are: 
+ - Certain well-known operations are: Scaling, Rotation and Shearing
  
- 23.24
+ Linear Algebra - Eigen Vectors
+ - Eigen Vectors don't change even if transformation is applied to them
+ - They are the most sensitive parts of dataset and can be used for analysis purposes
  
  
+ ###########################################################################################################################  
+------------- Multivariate Calculus -------------
+ 
+ - Helps in solving problems of optimizing the ML Model
+ 
+ 
+Differentitation
+ - Break down of a function
+ 
+ 
+Partial Differentiation
+ - Functions with multiple variables
+ 
+f1(x,y,z) = (y.z).f1(x) + (x.z).f1(y) + (x.y).f1(z)
 
+
+Jacobian helps finding the global maxima of the dataset. It helps linearizing a non-linear function to linear at a point.
+Gradient Descent is method for optimizing weights.
+
+
+ 
+ ###########################################################################################################################  
+------------- Probability -------------
+The ratio of desired outcomes to total outcomes
+
+Random experiment
+An experiment or a process for which the outcome cannot be predicted with certainty
+
+Sample space
+The entire possible set of outcomes of a random experiment is the sample space (S) of that experiment
+
+Event
+One or more outcomes of an experiment. It is a subset of sample space.
+
+Joint Events can have common outcomes
+Disjoint Events cannot have the common outcome
+
+Probability Density Function
+ - The equation describing a continuous probability distribution is called a Probability Density Function
+ 
+Normal Distribution
+ - Mean: Determines the location of center of the graph
+ - Standard Deviation: Determines the height of the graph
+    - If the standard deviation is large, the curve is short and wide
+    - If the standard deviation is large, the curve is tall and narrow
+    
+Central Limit Theorem
+ - The CLT states that the sampling distribution of the mean of any independent, random variable will be normal or nearly normal, if the sampling size large enough.
+ 
+Types of Probability
+ - Marginal Probability
+   - MP is the probability of occurrence of a single event.
+ - Joint Probability
+   - JP is a measure of two events happening at the same time.
+ - Conditional Probability
+   - CP is probability of an event or outcome based on the occurrence of a previous event or outcome
+   
+Bayes Theorem
+ - Shows the relation between one conditional probability and its inverse.
+ 
+ 
+ ###########################################################################################################################  
+------------- Statistics -------------
+
+Data collection and analysis
+
+Population > Sample
+
+Sampling -> 
+-> Probability
+   -> Random
+       * Each member has the equal chance
+   -> Systematic
+       * Every nth record has chosen from a population
+   -> Stratified
+       * Stratum is a subset of the population that shares at least one common characteristics (e.g gender)
+       * Random sampling is used to select sample from each startum
+-> Non-probability
+   -> Snowball
+   -> Quota
+   -> Judgement
+   -> Convenience
+   
+Descriptive Statistics is mainly focused upon the main characteristics of data. It provides graphical summary of the data.
+
+Inferential Statistics
+
+1:19:10
