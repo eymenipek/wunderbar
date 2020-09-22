@@ -1,0 +1,8 @@
+Anaconda ve Python kurulduktan sonra Python klasoru path olarak kaydedilir:
+https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
+
+get-pip.py dosyasi indirilir.
+
+get-pip.py dosyasinin bulundugu yerde python get-pip.py komutu calistirilir.
+
+get-pip.py dosyasinin yuklendigi yere gidip (Python\Scripts) pip install #library komutu calistirilir.
