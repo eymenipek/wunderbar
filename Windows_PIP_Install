@@ -6,3 +6,6 @@ get-pip.py dosyasi indirilir.
 get-pip.py dosyasinin bulundugu yerde python get-pip.py komutu calistirilir.
 
 get-pip.py dosyasinin yuklendigi yere gidip (Python\Scripts) pip install #library komutu calistirilir.
+
+Python ve IDE ayri yapilar oldugu icin pip ve libraries Python icine kurulur.
+
