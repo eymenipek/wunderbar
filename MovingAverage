@@ -1,0 +1,28 @@
+import scipy.io
+import numpy as np
+import matplotlib.pyplot as plt
+
+DriveCycle = scipy.io.loadmat('ExampleDriveCycle.mat')
+
+Time =DriveCycle['V']['Time']
+Time = np.concatenate(np.concatenate(np.concatenate(Time)))
+
+IESS1Actual =DriveCycle['V']['IESS1Actual']
+IESS1Actual = abs(np.concatenate(np.concatenate(np.concatenate(IESS1Actual))))
+
+def moving_average(a, n=3) :
+    ret = np.cumsum(a, dtype=float)
+    ret[n:] = ret[n:] - ret[:-n]
+    return ret[n - 1:] / n
+
+plt.plot(Time, IESS1Actual)
+plt.plot(Time[100:], moving_average(IESS1Actual, 101)) #1s average
+plt.plot(Time[500:], moving_average(IESS1Actual, 501)) #5s average
+plt.plot(Time[1000:], moving_average(IESS1Actual, 1001)) #10s average
+plt.plot(Time[10000:], moving_average(IESS1Actual, 10001)) #100s average
+plt.plot(Time[50000:], moving_average(IESS1Actual, 50001)) #500s average
+plt.plot(Time[100000:], moving_average(IESS1Actual, 100001)) #1000s average
+plt.xlabel("Time [s]")
+plt.ylabel("Current [A]")
+plt.grid()
+plt.show()
