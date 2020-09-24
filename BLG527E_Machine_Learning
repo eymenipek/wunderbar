@@ -1,0 +1,58 @@
+Lecture 1.1
+
+- Types of learners
+- Data samples and features
+- Training and testing set
+- Cross-validation
+
+
+George Leonard - Mastery
+
+3 types of learners
+- Dabblers: Over excited about learners, give up at plateau
+- Hackers: Keep using same techniques, stucked in plateau, after plateau they stop
+- Masters: Constantly aimind to improve themselves, try different things
+
+Lecture 1.2
+Training and Testing Sets
+
+Each picture: data sample and data point --> image of a cat
+- Voice signal
+- Text
+- Image
+
+Classification of cats and dogs
+- Dataset 1: Cats
+- Dataset 2: Dogs
+
+- What makes the difference: ears, nose (features)
+Extract features to distinguish cats and dogs
+
+Cat vector:
+
+- Shape of ear
+- Size of nose
+
+[2 1]
+2D feature vector
+
+x € R^2 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
