@@ -1,3 +1,8 @@
+https://reality.ai/ultimate-guide-to-machine-learning-for-embedded-systems/
+
+  
+
+
 Lecture 1.1
 
 - Types of learners
@@ -37,6 +42,11 @@ Cat vector:
 2D feature vector
 
 x € R^2 
+
+Xtr = xi matrix with N samples and d features (N satir sayisi, d sutun sayisi)
+Xtr € R^Nxd 
+
+
 
 
 
